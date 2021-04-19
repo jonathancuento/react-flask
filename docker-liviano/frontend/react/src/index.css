@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.Menu{
+  background-color: #2E2E2E;
+  height: 100vh;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+}
+
+.MenuHead{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.MenuBody{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.MenuFooter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+#logo{
+  width: 60%;
+  height: auto;
+}
+
+.MenuTitle{
+  color:white;
+  font-size: 1.1rem;
+  margin-top: 15px;
+}
+
+.MenuText{
+  color:white;
+  font-size: 1.1rem;
+}
+
+.MenuItem{
+  margin: 3px 30px 3px 30px;
+}
+
+
+.MenuLine{
+  width: 80%;
+  border: 1px solid #B79540;
+}
+
+
+.Content{
+  margin-left: 330px;
+  height: 100vh;
+}
+
+.ContentSearch{
+  width: 100%;
+  background-color:#CBCBCB;
+  height: 7vh;
+  margin: 2px;
+}
+
+.ContentContent{
+  display: flex;
+  flex-wrap:wrap;
+  width: 100%;
+  height: auto;
+  margin: 2px;
+  border: 0px;
+}
+
+.ContentElement{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 380px;
+  background-color: white;
+  padding: 0px;
+  margin: 5px 10px 5px 10px;
+  border:1px solid #999999;
+  border-radius: 10px;
+}
+
+.ElementDescription{
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+}
+
+.ElementIngredients{
+  padding: 4px;
+}
+
+.ElementImage{
+  border-radius: 10px;
+}
